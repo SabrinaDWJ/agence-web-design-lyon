@@ -132,7 +132,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #575757;
 }
 
 .d-bloc .a-btn:hover,
@@ -739,7 +739,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -778,8 +778,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #333;
-    color: #F3976C!important;
+    background: #F3976C;
+    color: #333!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -807,11 +807,6 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -871,10 +866,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -883,8 +874,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1032,11 +1021,25 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .bg-banniere {
+        background-image: none;
+    }
+    
+    .bg-presentation {
+        background-image: none;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .bg-banniere {
+        background-image: none;
+    }
+    
+    .bg-presentation {
+        background-image: none;
     }
 }
 .text-img {
@@ -1055,4 +1058,12 @@ h4 {
 .tangerine-background {
     background-color: #f3976c;
     padding: 10px 0px;
+}
+.bloc-size {
+    width: 80%;
+    margin: auto;
+}
+.h2-font-size {
+    font-size: 1em;
+    margin: 8px 0 16px 0;
 }
