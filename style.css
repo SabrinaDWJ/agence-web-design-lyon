@@ -109,7 +109,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #575757;
+    color: #fff;
 }
 
 .d-bloc .a-btn:hover,
@@ -727,40 +727,30 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
-
-.tc-black {
-    color: #333!important;
+    background: linear-gradient(135deg, #d82f4a, #ffe748);
 }
 .btn-tangerine {
     background: linear-gradient(135deg, #d82f4a, #ffe748);
 }
 .btn-tangerine:hover {
-    background: #6e6e6e!important;
+    filter: brightness(1.2);
 }
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #333!important;
+    background: linear-gradient(135deg, #d82f4a, #ffe748);
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    filter: brightness(1.2);
 }
 .tc-color {
-    background: -webkit-linear-gradient(135deg, #d82f4a, #ffe748);
+    background: -webkit-linear-gradient(315deg, #d82f4a, #ffe748);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 600;
 }
 .ltc-white {
     color: #FFFFFF!important;
 }
-
-.ltc-white:hover {
-    color: #cccccc!important;
-}
-
 .ltc-atomic-tangerine {
     color: #F3976C!important;
 }
@@ -1036,4 +1026,19 @@ h4 {
 }
 .gradient-background {
     background: radial-gradient(#ed8a47, transparent);
+}
+.border-link:focus {
+    border-color: #e6314e;
+    box-shadow:  0 1px 3px 2px #e6314e;
+    border-radius: 20px;
+}
+.btn-focus:focus {
+    border-color: #e6314e;
+    box-shadow:  0 1px 3px 2px #e6314e;
+    border-radius: 20px;
+}
+.bold-link:hover {
+    background: -webkit-linear-gradient(315deg, #ffe748, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
