@@ -1,23 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #FFF;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 a,
 button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+    transition: all .3s ease-in-out; outline: none!important;
 }
-
 a:hover {
-    text-decoration: none;
-    cursor: pointer;
+    text-decoration: none; cursor: pointer;
 }
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -26,7 +13,6 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
 .bloc {
     width: 100%;
     clear: both;
@@ -38,24 +24,18 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0; padding-right: 0;
 }
-
 .bloc-lg {
     padding: 100px 50px;
 }
-
 .bloc-md {
     padding: 50px;
 }
-
 .bloc-sm {
     padding: 20px 50px;
 }
-
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -71,15 +51,12 @@ a:hover {
     -o-background-size: auto!important;
     background-size: auto!important;
 }
-
 .bg-repeat {
     background: repeat;
 }
-
 .bg-t-edge {
     background: top no-repeat;
 }
-
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
@@ -192,8 +169,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
+.d-bloc .panel {
     color: rgba(0, 0, 0, .5);
 }
 
@@ -217,7 +193,6 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
@@ -292,25 +267,8 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
     padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
 }
-
-.navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
-    height: 40px;
-}
-
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
-}
-
 .nav-center .navbar-brand img {
     margin: 0;
 }
@@ -318,12 +276,9 @@ a:hover {
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
-    float: right;
-    z-index: 1;
 }
 
 .nav > li {
-    float: left;
     margin-top: 4px;
     font-size: 16px;
 }
@@ -654,9 +609,7 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
+
 
 .hero-bloc-text {
     font-size: 38px;
@@ -701,7 +654,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 15px;
 }
 
 h2 {
@@ -763,7 +718,6 @@ h4 {
     font-weight: 900;
     text-decoration: underline!important;
 }
-
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -780,8 +734,7 @@ h4 {
     color: #333!important;
 }
 .btn-tangerine {
-    background: #333;
-    color: #F3976C!important;
+    background: linear-gradient(135deg, #d82f4a, #ffe748);
 }
 .btn-tangerine:hover {
     background: #6e6e6e!important;
@@ -795,7 +748,11 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
-
+.tc-color {
+    background: -webkit-linear-gradient(135deg, #d82f4a, #ffe748);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -924,9 +881,7 @@ h4 {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
         padding-left: 15px;
-        width: 100%;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
@@ -978,6 +933,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        
     }
     .bloc-sm,
     .bloc-md {
@@ -1030,10 +986,6 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .bg-banniere {
-        background-image: none;
-    }
-    
     .bg-presentation {
         background-image: none;
     }
@@ -1043,10 +995,6 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-    .bg-banniere {
-        background-image: none;
-    }
-    
     .bg-presentation {
         background-image: none;
     }
@@ -1065,7 +1013,6 @@ h4 {
     color: #575757!important;
 }
 .tangerine-background {
-    background-color: #f3976c;
     padding: 10px 0px;
 }
 .bloc-size {
@@ -1075,4 +1022,18 @@ h4 {
 .h2-font-size {
     font-size: 1em;
     margin: 8px 0 16px 0;
+}
+.focus-border:focus {
+    border-color: coral;
+    box-shadow:  0 1px 3px 2px coral;
+    border-radius: 20px;
+}
+.focus-link:focus {
+    border-color: #f5f5f5;
+    box-shadow:  0 1px 3px 2px #f5f5f5;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.gradient-background {
+    background: radial-gradient(#ed8a47, transparent);
 }
