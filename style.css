@@ -161,6 +161,7 @@ a:hover {
 }
 .navbar-brand {
     padding: 3px 15px;
+    width: auto;
 }
 .nav-center .navbar-brand img {
     margin: 0;
@@ -192,6 +193,9 @@ a:hover {
 }
 .nav-invert .navbar-header, .nav-invert .navbar-brand {
     float: right; position: relative; z-index: 2;
+}
+.center-block {
+    height: auto;
 }
 @media (min-width: 768px) {
     .site-navigation {
