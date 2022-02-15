@@ -479,12 +479,6 @@ h4 {
 .bold-link {
     font-weight: 900; text-decoration: underline!important;
 }
-.bgc-white {
-    background-color: #FFFFFF;
-}
-.bgc-dark-slate-blue {
-    background-color: #F3976C;
-}
 .bgc-atomic-tangerine {
     background: linear-gradient(135deg, #d82f4a, #ffe748);
 }
