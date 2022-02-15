@@ -681,7 +681,8 @@ h4 {
         display: flex; justify-content: space-between;
     }
     .bg-banniere {
-        background-color: #000000;
+        background: radial-gradient(#fde048, transparent);
+    }
 }
 @media (max-width: 400px) {
     .bloc {
