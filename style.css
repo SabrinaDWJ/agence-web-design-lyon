@@ -516,7 +516,7 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 .bg-banniere {
-    background-color: #000000;
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
@@ -680,6 +680,8 @@ h4 {
     .social {
         display: flex; justify-content: space-between;
     }
+    .bg-banniere {
+        background-color: #000000;
 }
 @media (max-width: 400px) {
     .bloc {
