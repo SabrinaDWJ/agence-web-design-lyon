@@ -495,7 +495,9 @@ h4 {
     filter: brightness(1.2);
 }
 .tc-color {
-    color: coral!important;
+    background: -webkit-linear-gradient(315deg, #d82f4a, #e98046); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 600;
 }
 .ltc-white {
