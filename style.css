@@ -495,7 +495,7 @@ h4 {
     filter: brightness(1.2);
 }
 .tc-color {
-    background: -webkit-linear-gradient(315deg, #d82f4a, #edd11b, #d82f4a); 
+    background: -webkit-linear-gradient(315deg, #d82f4a, #ffe748); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
@@ -681,7 +681,7 @@ h4 {
         display: flex; justify-content: space-between;
     }
     .bg-banniere {
-        background: linear-gradient(transparent, #ffee97);
+        background: linear-gradient(#f5f1e1, transparent);
     }
 }
 @media (max-width: 400px) {
